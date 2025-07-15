@@ -1,0 +1,248 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.header-container{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+}
+
+.app-logo{
+    display: flex;
+    min-width: 105px;
+    max-width: 105px;
+}
+.app-logo .logo{
+    width: 100px;
+    transition: width 0.3s ease;
+}
+.app-logo .logo:hover{
+    width: 105px;
+    
+}
+
+.inputt-search{
+    height: 32px;
+    padding: 4px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.inputtf{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    width: 98%;
+    font-size:medium;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.inputt{
+    margin-left: 5px;
+    width: 98%;
+    font-size:medium;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+ul li{
+    list-style-type: none;
+    padding:0px 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+ul li a{
+    padding: 0px 6px;
+    color: black;
+}
+
+ul li a:hover{
+    
+    color: rgb(255, 88, 10);
+    cursor: pointer;
+}
+
+/* body */
+.restaurant-lists{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.no-res-found{
+    margin: 100px 0px 410px 610px;
+}
+.card{
+    margin:24px;
+    margin-bottom: 2px;
+    height: 330px;
+    width: 300px;
+    transition: transform 0.3s ease; 
+    color: black;
+}
+.card:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.card img{
+    height: 207px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avg-rating{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.item-name{
+    font-weight: bold;
+}
+.res-img{
+    border-radius: 11px;
+}
+
+#item-details{
+    font-size: 14px;
+    margin: 6px;
+    color: rgb(77, 77, 77);
+}
+.s-card{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmer-card{
+    margin:24px 24px 115px 24px;
+    height: 207px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(160, 160, 160);
+}
+
+/*cart*/
+.cart{
+    margin:104px;
+    margin-left: 590px;
+    margin-bottom: 400px;
+}
+
+
+/*restaurantMenuContainer */
+.restaurantMenuContainer{
+    margin: 150px;
+    width: 80%;
+}
+.resmenutitle{
+    display: flex;
+    justify-content: space-between;
+    min-width: 700px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+.res-menu {
+    display: flex;
+    flex-direction: column;
+}
+.res-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    min-width: 700px;
+    max-width: 700px;
+    border-bottom: 1px solid gray;
+}
+.res-menu img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.item-name p{
+    margin: 5px;
+    font-weight: 400;
+    font-size: medium;
+    color: rgb(50, 50, 50);
+}
+.item-name .item-desc{
+    font-size: small;
+    color: rgb(79, 79, 79);
+    margin-bottom: 66px;
+}
+/* Footer.css */
+.footer-container {
+    position: relative;
+    bottom: 0px;
+    height: 250px;
+    margin-top: 100px;
+    min-width: 130vh;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 15px;
+    font-size: 14px;
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 17px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
